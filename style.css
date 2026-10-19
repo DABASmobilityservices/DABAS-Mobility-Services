@@ -1,0 +1,24 @@
+/* DABAS Mobility Services - Custom Stylesheet */
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  color: #111827;
+  background-color: #FFFFFF;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(10, 35, 70, 0.95) 0%, rgba(10, 35, 70, 0.88) 50%, rgba(6, 22, 46, 0.96) 100%);
+}
+
+.card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -10px rgba(10, 35, 70, 0.15), 0 4px 6px -4px rgba(10, 35, 70, 0.05);
+}
+
+.modal-backdrop {
+  background-color: rgba(6, 22, 46, 0.75);
+  backdrop-filter: blur(4px);
+}
